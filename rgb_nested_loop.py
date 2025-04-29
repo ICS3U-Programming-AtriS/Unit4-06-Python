@@ -7,11 +7,11 @@
 
 def main():
     # RED
-    for r in range(0,256,15):
+    for r in range(0, 256, 15):
         # GREEN
-        for g in range (0,256,15):
+        for g in range(0, 256, 15):
             # BLUE
-            for b in range (0,256,15):
+            for b in range(0, 256, 15):
                 # COLOR
                 print(f"\033[38;2;{r};{g};{b}m", end="")
                 # RGB(RED, GREEN, BLUE)
